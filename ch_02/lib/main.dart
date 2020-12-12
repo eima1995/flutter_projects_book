@@ -48,7 +48,6 @@ class MyAppState extends State<MyApp> {
             child: Center(
               child: Column(
                 children: [
-                  // Spacer(0),
                   Text(
                     'Value',
                     style: labelStyle,
@@ -67,7 +66,6 @@ class MyAppState extends State<MyApp> {
                       }
                     },
                   ),
-                  Spacer(),
                   Text(
                     'From',
                     style: labelStyle,
@@ -89,7 +87,6 @@ class MyAppState extends State<MyApp> {
                       onStartMeasureChanged(value);
                     },
                   ),
-                  Spacer(),
                   Text(
                     'To',
                     style: labelStyle,
